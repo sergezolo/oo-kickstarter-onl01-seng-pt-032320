@@ -12,7 +12,7 @@ class Backer
   end
   
   def back_project(project)
-    Project. 
+    Project.backers.collect {
     
   end
     
