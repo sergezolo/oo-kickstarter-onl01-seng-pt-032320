@@ -8,8 +8,7 @@ class Backer
   end
 
   def back_project(project)
-    Project.backers.collect {
-    
+    @backed_projects << project
   end
     
   
