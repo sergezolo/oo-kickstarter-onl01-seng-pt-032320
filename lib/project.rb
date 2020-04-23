@@ -4,7 +4,7 @@ class Project
   
   def initialize(title)
     @title = title
-    @backers_attribute << self
+    @backers_attribute = []
   end
   
   def backers_attribute
